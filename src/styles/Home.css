@@ -1,0 +1,49 @@
+.home-container {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+  background-color: #1e293b;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links .nav-button {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.nav-button:hover {
+  background-color: white;
+  color: #1e293b;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(to right, #4f46e5, #3b82f6);
+  color: white;
+}
+
+.cta-button {
+  margin-top: 1.5rem;
+  display: inline-block;
+  background-color: white;
+  color: #1e3a8a;
+  padding: 0.7rem 1.4rem;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+}
